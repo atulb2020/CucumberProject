@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-06-27T12:30:27.055Z",
+        "start_timestamp": "2022-07-02T15:05:23.419Z",
         "line": 3,
         "name": "Test the valid login",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24312200600,
+              "duration": 33048894700,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 666960000,
+              "duration": 845947700,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 9376484100,
+              "duration": 6562395600,
               "status": "passed"
             },
             "line": 7,
@@ -49,7 +49,77 @@
           },
           {
             "result": {
-              "duration": 6989600,
+              "duration": 4992700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user shoul land on home page",
+            "match": {
+              "location": "com.stepDefinition.LoginStep.user_shoul_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality of OrangeHRM",
+    "description": "",
+    "id": "test-the-login-functionality-of-orangehrm",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/abcd.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-02T15:06:04.186Z",
+        "line": 3,
+        "name": "Test the valid login",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21211085400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on loginPage",
+            "match": {
+              "location": "com.stepDefinition.LoginStep.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 824707600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "com.stepDefinition.LoginStep.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9347177700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepDefinition.LoginStep.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996500,
               "status": "passed"
             },
             "line": 8,
@@ -62,7 +132,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-27T12:31:01.704Z",
+        "start_timestamp": "2022-07-02T15:06:35.595Z",
         "line": 11,
         "name": "Test the valid login1",
         "description": "",
@@ -72,7 +142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17631515400,
+              "duration": 24403854900,
               "status": "passed"
             },
             "line": 13,
@@ -84,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 891601800,
+              "duration": 1192128700,
               "status": "passed"
             },
             "line": 14,
@@ -96,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 9619253900,
+              "duration": 22764767200,
               "status": "passed"
             },
             "line": 15,
@@ -108,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 2998600,
+              "duration": 2993800,
               "status": "passed"
             },
             "line": 16,
